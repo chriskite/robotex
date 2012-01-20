@@ -1,0 +1,12 @@
+== 1.0.0 / 2012-01-20
+
+* Minor enhancements
+
+  * Move delay sleep out of allowed? into its own method (delay!)
+  * Add rspec suite
+  * Add Gemfile
+
+* Bug fixes
+
+  * Fix handling of priority for allow vs disallow
+  * Fix permission issue with gem

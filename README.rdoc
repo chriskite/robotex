@@ -1,0 +1,14 @@
+= Robotex
+== Obey Robots.txt
+
+With one line of code, Robotex (pronounced like "robotics") will download and parse the robots.txt file and let you know if your program is allowed to visit a given link.
+
+Usage:
+
+    robotex = Robotex.new "My User Agent"
+    robotex.allowed?("http://www.example.com/foo")
+    robotex.delay! # wait until any specified Crawl-Delay has passed
+
+== Acknowledgements
+
+Robotex is a modified version of Kyle Maxwell's excellent Robots library. Some folks were unable to use that gem due to packaging issues, so I used his code to create Robotex.
