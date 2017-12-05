@@ -7,7 +7,7 @@ Usage:
 
     robotex = Robotex.new "My User Agent"
     robotex.allowed?("http://www.example.com/foo")
-    robotex.delay! # wait until any specified Crawl-Delay has passed
+    robotex.delay!("http://www.example.com/foo") # wait until any specified Crawl-Delay has passed
 
 == Acknowledgements
 
